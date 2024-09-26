@@ -1,0 +1,556 @@
+{
+  "global": {
+    "name": "Nombre",
+    "languages": "Idiomas",
+    "user": "Usuario",
+    "users": "Usuarios",
+    "profile": "Perfil",
+    "english": "Ingles",
+    "spanish": "Español",
+    "logout": "Cerrar Sesión",
+    "login": "Iniciar Sesión",
+    "signup": "Registrarse",
+    "enterEmail": "Ingrese su correo electrónico",
+    "enterPassword": "Ingrese su contraseña",
+    "userList": "Lista de usuarios",
+    "role": "Rol",
+    "company": "Empresa",
+    "phone": "Teléfono",
+    "direction": "Dirección",
+    "modules": "Modulos",
+    "security": "Seguridad",
+    "addImage": "Añadir imagen",
+    "accept": "Aceptar",
+    "address": "Domicilio",
+    "email": "Correo Electronico",
+    "saveChanges": "Guardar cambios",
+    "action": "Acción",
+    "edit": "Editar",
+    "delete": "Delete",
+    "applications": "Aplicaciones",
+    "download": "Descargar",
+    "domicile": "Domicilio",
+    "password": "Constraseña",
+    "components": "Componentes",
+    "docs": "Documentación",
+    "home": "Inicio",
+    "pricing": "Precios",
+    "contact": "Contacto",
+    "privacyPolicy": "Política de privacidad",
+    "verificationCode": "Código de verificación",
+    "functions": "Funciones",
+    "recoverAccount": "Recuperar cuenta",
+    "forgotYourPassword": "Olvidó su contraseña?",
+    "backToLogin": "Volver al inicio de sesión",
+    "loading": "Cargando",
+    "owner": "Propietario",
+    "firstName": "Nombre",
+    "middleName": "Segundo nombre",
+    "workPhone": "Teléfono de trabajo",
+    "homePhone": "Teléfono de casa",
+    "cellPhone": "Teléfono celular",
+    "lastName": "Apellido",
+    "address1": "Dirección 1",
+    "address2": "Dirección 2",
+    "city": "Ciudad",
+    "state": "Estado",
+    "country": "País",
+    "emailAddress": "Correo electrónico",
+    "payments": "Pagos",
+    "save": "Guardar",
+    "updatePhoto": "Actualizar foto",
+    "myAccounts": "Mis cuentas",
+    "addAccount": "Añadir cuenta",
+    "editAccount": "Editar cuenta",
+    "cancel": "Cancelar",
+    "newAccount": "Nueva cuenta",
+    "create": "Crear",
+    "account": "Cuenta",
+    "detail": "Detalle",
+    "optional": "Opcional",
+    "userInfo": "Datos del usuario",
+    "finalize": "Finalizar",
+    "enterName": "Ingrese su nombre",
+    "or": "o",
+    "saving": "Guardando",
+    "ending": "Finalizando",
+    "creating": "Creando",
+    "deleteAccount": "Borrar Cuenta",
+    "actions": "Acciones",
+    "editProfile": "Editar perfil",
+    "addUser": "Añadir usuario",
+    "searchByUserName": "Buscar por nombre",
+    "noResults": "No se encontraron resultados",
+    "type": "Tipo",
+    "myProfile": "Mi perfil"
+  },
+  "dashboard": {
+    "quantityUser": "Cantidad de usuarios",
+    "diskSpace": "Espacio en disco"
+  },
+  "navBar": {
+    "business": "Empresa",
+    "dashboard": "Dashboard",
+    "login": "Ingresar",
+    "logout": "Cerrar Sesión",
+    "workspaces": "Espacios de trabajo",
+    "auditLogs": "Registros de auditoria",
+    "subscriptions": "Suscripciones"
+  },
+  "business": {
+    "errorSelect": "Seleccione un tipo de archivo",
+    "addressCompany": "Domicilio de la empresa",
+    "nameCompany": "Nombre de la empresa",
+    "emailCompany": "Correo electrónico de la empresa",
+    "phoneCompany": "Telefóno de la empresa",
+    "dataCompany": "Datos de la empresa"
+  },
+  "security": {
+    "setSecLvl": "Establecer nivel de seguridad de la contraseña",
+    "opt1": "No más de 2 caracteres idénticos seguidos",
+    "opt2": "Caracteres especiales",
+    "opt3": "Minúsculas (a-z), mayúsculas (A-Z) y números (0-9)",
+    "opt4": "Debe tener --- 8 --- caracteres de longitud",
+    "opt5": "Se requiere una contraseña no vacía"
+  },
+  "billing": {
+    "billing": "Facturacion",
+    "amountPayable": "Monto a pagar",
+    "billingInformation": "Datos de facturacion",
+    "history": "Historial",
+    "pending": "Pendiente",
+    "paid": "Pagado",
+    "period": "Periodo",
+    "expirationDate": "Vencimiento",
+    "paymentDate": "Fecha de pago",
+    "upToDate": "Estas al dia",
+    "pendingPayment": "Saldo pendiente",
+    "seeMore": "Ver más"
+  },
+  "pricing": {
+    "starter": "1 Linea",
+    "annual": "Anual",
+    "monthly": "Mensual",
+    "subscribe": "Suscribirse",
+    "title": "Nuestros precios",
+    "description": "Precio en base a una (1) linea/numero.",
+    "accessAllFeatures": "Acceso a todas las funciones",
+    "accountLineNumber": "1 Cuenta/Linea/Numero",
+    "messageOnlyText": "Mensajes solo texto",
+    "multimediaMessage": "Mensajes multimedia (audio, imagenes, videos, archivos)",
+    "webhookNotification": "WebHook para notificar mensajes entrantes",
+    "5daysTrial": "5 dias de prueba *",
+    "requiresCreditCard": "requiere tarjeta de credito",
+    "trialAdvice": "Si considera necesario probar el servicio por un periodo mayor a 5 días, puede solicitarlo desde el formulario de contacto"
+  },
+  "footer": {
+    "home": "Inicio",
+    "allRightsReserved": "Todos los derechos reservados",
+    "description": "Cuando visita o interactúa con nuestros sitios, servicios o herramientas, nosotros o nuestros proveedores de servicios autorizados podemos usar cookies para almacenar información para ayudarlo a brindarle una experiencia mejor, más rápida y más segura y con fines de marketing."
+  },
+  "ApiDocs": {
+    "authentication": "Autenticación",
+    "textMessage": "Mensaje de texto",
+    "multimediaMessage": "Mensaje multimedia",
+    "messageStatus": "Estado del mensaje",
+    "settings": "Configuración",
+    "description": "Descripción",
+    "faqTitle": "Preguntas Frecuentes",
+    "faqSubtitle": "Busque en nuestras preguntas frecuentes las respuestas a cualquier cosa que pueda necesitar."
+  },
+  "FAQ": {
+    "title1": "¿Puedo hacer envíos masivos a través de la API de Chat?",
+    "subtitle1": "Alentamos a nuestros clientes a no enviar mensajes no deseados y no hacer mensajes de marketing masivo. De lo contrario, su cuenta puede ser bloqueada por el sistema antispam de WhatsApp. No envíe más de 6000 mensajes por día desde un número. O no más de 5-10 mensajes por minuto. Superar este umbral puede llamar la atención de los algoritmos de WhatsApp. Para enviar más mensajes, conecte otro número",
+    "title2": "Necesito enviar más de 6.000 mensajes al día. ¿Qué hacer?",
+    "subtitle2": "Use varias cuentas. Múltiples números de WhatsApp le permiten enviar más mensajes por día. Si usa más de 5 cuentas, ofrecemos un descuento. Las cuentas se agregan a pedido del soporte técnico.",
+    "title3": "¿Puedo enviar imágenes, archivos de audio y video?",
+    "subtitle3": "Sí puedes. ¡Importante! Use el método / sendFile en lugar del método de mensaje (sendMessage) en el enlace al token. Envíe solo enlaces https (no envíe http). El tamaño máximo de archivo es de 60 mb. Es mejor enviar archivos grandes con enlace, no base64.",
+    "title4": "¿Cómo envío un mensaje al grupo de WhatsApp?",
+    "subtitle4_1": "Cree un grupo usando el método POST / group.",
+    "subtitle4_2": "Obtenga el chatId a través del método GET/messages.",
+    "subtitle4_3": "Envíe un mensaje al grupo a través de POST / sendMessage.",
+    "title5": "¿Se actualizará la API de Chat cuando actualice WhatsApp?",
+    "subtitle5": "Sí, se actualizará. La API de chat ha estado funcionando y es compatible desde diciembre de 2015. Por lo general, hay 3 o 4 actualizaciones por año, lo que afecta el trabajo de la API de chat. En 1 día hábil, adaptamos la API a los cambios.",
+    "title6": "¿Aparece el estado 'Entregado' y 'Leído' cuando se envía a través de la API de chat?",
+    "subtitle6": "Sí. Ver la sección 'reconocer' en la documentación",
+    "title7": "¿Cómo conectar WhatsApp a la API de chat?",
+    "subtitle7_1": "Cómo conectar WhatsApp a la API de chat",
+    "subtitle7_2": "Conecte el número de teléfono al servicio.",
+    "subtitle7_3_1": "Crea tu cuenta Chat-Api. ¡Es gratis!",
+    "subtitle7_3_2": "Después de eso, será redirigido al panel de administración donde se creará su instancia personal (cuenta). Recibirá un código QR en la página principal de su cuenta personal. Preste atención a la autorización segura para teléfonos nuevos. Ahora, siguiendo las instrucciones, abre WhatsApp en tu teléfono móvil, ve a «Configuración» - > WhatsApp Web - > Escanear código QR",
+    "subtitle7_4_1": "¿Qué necesitas para empezar?",
+    "subtitle7_4_2": "Se requiere un teléfono móvil con WhatsApp funcionando para el funcionamiento normal. La mayoría de las veces, nuestros clientes simplemente conectan un dispositivo de WhatsApp sin usar a la red eléctrica y no lo usan para ningún otro propósito. Es importante observar las condiciones para el correcto funcionamiento de los bots: - La aplicación de WhatsApp se está ejecutando en su dispositivo ( no está en modo de ahorro de energía), está conectado a Internet y tiene una buena duración de la batería. - ¡No uses Whatsapp Web! No inicie sesión en la versión web de WhatsApp después de haber conectado su número a su cuenta personal, esto dará como resultado un restablecimiento de la conexión y tendrá que realizar el procedimiento de conexión nuevamente. En caso de incumplimiento de cualquiera de estas condiciones, los mensajes dejarán de llegar a su gabinete personal y no serán enviados.",
+    "title8": "¿Qué necesitas para empezar?",
+    "subtitle8_1": "Que necesitas para empezar",
+    "subtitle8_2": "Se requiere un teléfono móvil con WhatsApp funcionando para el funcionamiento normal.",
+    "subtitle8_3": "La mayoría de las veces, nuestros clientes simplemente conectan un dispositivo de WhatsApp sin usar a la red eléctrica y no lo usan para ningún otro propósito.",
+    "subtitle8_4": "Es importante observar las condiciones para el correcto funcionamiento de los bots:",
+    "subtitle8_5": "- La aplicación WhatsApp se está ejecutando en su dispositivo (no en modo de ahorro de energía), está conectado a Internet y tiene una buena duración de la batería.",
+    "subtitle8_6": "- ¡No uses Whatsapp Web!",
+    "subtitle8_7": "No inicie sesión en la versión web de WhatsApp después de haber conectado su número a su cuenta personal, esto dará como resultado un restablecimiento de la conexión y tendrá que realizar el procedimiento de conexión nuevamente.",
+    "subtitle8_8": "En caso de incumplimiento de cualquiera de estas condiciones, los mensajes dejarán de llegar a su gabinete personal y no serán enviados.",
+    "title9": "Nuestro consejo. Seguridad y Bloqueo",
+    "subtitle9_1": "Seguridad y bloqueos",
+    "subtitle9_2": "La razón principal por la que WhatsApp puede bloquear un número es por las quejas de los usuarios sobre el spam. Solo unos pocos clics en el botón 'Esto es spam' después de enviar sus mensajes. No podrás desbloquear tu número de teléfono. No podrá obtener las respuestas de sus clientes. Perderás tu base de suscriptores y tendrás que activar un nuevo número de teléfono (no te cobramos ninguna tarifa adicional).",
+    "subtitle9_3": "Si está prohibido, comuníquese con nuestro equipo de soporte técnico.",
+    "subtitle9_4": "¿Cómo evitar el bloqueo?",
+    "subtitle9_5": "Nuestras recomendaciones de marketing:",
+    "subtitle9_6": "- Configurar la publicidad de forma que el usuario sea el primero en escribirte (no aparece el botón 'Marcar como Spam').",
+    "subtitle9_7": "- Enviar mensajes únicamente a su fiel base de datos de números que le hayan dado su consentimiento.",
+    "subtitle9_8": "- No envíes los mismos mensajes, cámbialos: personaliza los mensajes (“Hola, %name%”).",
+    "subtitle9_9": "- Aprovecha la oportunidad de suscribirte y desuscribirte de tu lista de correo en cada mensaje. Para hacer esto, agregue botones de respuesta (por ejemplo, 'Escriba 0 para darse de baja')",
+    "subtitle9_10": "- Minimizar la presencia de un enlace en los mensajes en el primer uso del bot",
+    "subtitle9_11": "- Ofrezca a los usuarios guardar su contacto.",
+    "subtitle9_12": "Nuestras recomendaciones técnicas:",
+    "subtitle9_13": "- Los nuevos números de teléfono tienen un mayor riesgo de ser bloqueados. Antes de conectar un número completamente nuevo, le recomendamos que use Whatsapp personalmente durante algún tiempo (chatea con otros números para que tengas una variedad de mensajes entrantes y salientes de diferentes números)",
+    "subtitle9_14": "- Utilice la autenticación segura en su cuenta personal",
+    "subtitle9_15": "- Cuando comience a usar el bot, no envíe más de 5 a 10 mensajes por minuto, es decir, envíe mensajes en lotes, no todos a la vez. Cuanto más tiempo funcione su bot, más mensajes podrá enviar.",
+    "subtitle9_16": "- No use números y dispositivos (!) Que ya hayan sido bloqueados por WhatsApp."
+  },
+  "form": {
+    "enterValidName": "Por favor, ingrese un nombre valido",
+    "specifyFirstName": "Por favor, especifique su nombre",
+    "specifyLastName": "Por favor, especifique su apellido",
+    "validEmailAdress": "Por favor, ingrese una dirección de correo electrónico válida",
+    "emailIsRequired": "Correo electronico es requerido.",
+    "validPhoneNumber": "Por favor, ingrese un número de teléfono válido.",
+    "maxMessageContent": "El mensaje no puede contener más de 500 caracteres",
+    "askName": "Por favor, ingrese su nombre",
+    "askEmail": "Por favor, ingrese su dirección de correo electrónico",
+    "askPhoneNumber": "Por favor, ingrese su número de teléfono (opcional)",
+    "message": "Mensaje",
+    "send": "Enviar",
+    "phoneNumber": "Número de teléfono",
+    "lastName": "Apellido",
+    "firstName": "Nombre"
+  },
+  "contact": {
+    "contactUs": "Contáctanos",
+    "requestInfo": "Solicite más información."
+  },
+  "home": {
+    "title": "Comunicaciones unificadas",
+    "subtitle": "Las mejores soluciones para tu empresa",
+    "descriptionSubtitle": "Para enviar y recibir mensajes",
+    "descriptionText": "Usando nuestra API, puede enviar un mensaje y recibir mensajes a través de WhatsApp en minutos. Podrá crear sus propio bot enviando así, respuestas automáticas, cuando las personas escriban en sus números. O simplemente enviar notificaciones a todos sus clientes.",
+    "descriptionAdviceTitle": "USO RESPONSABLE",
+    "descriptionAdviceSubtitle": "Instamos a nuestros clientes a no enviar mensajes no solicitados. Sin embargo, usted no está limitado técnicamente y puede hacerlo. Pero recuerde, su cuenta puede ser suspendida por WhatsApp si los usuarios hacen clic en el botón \"es spam\" varias veces."
+  },
+  "benefits": {
+    "wspRestApiTitle": "WhatsApp REST API",
+    "wspRestApiSubtitle": "Nuestra API REST fue diseñada para ser extremadamente fácil de usar y accesible para todos, sin importar el lenguaje de programación o los marcos que use. Consulte la documentación de la API para obtener más información.",
+    "textLocationMultimediaTitle": "Mensajes de texto, ubicación y multimedia",
+    "textLocationMultimediaSubtitle": "Admitimos mensajes de texto, ubicación y medios (imágenes, audio, video o documentos).",
+    "groupMessagesTitle": "Mensajes de grupo",
+    "groupMessagesSubtitle": "Puede enviar mensajes de texto o multimedia a múltiples grupos de chat para anuncios u ofertas de marketing. También puede crear grupos.",
+    "technicalSupportTitle": "Soporte técnico",
+    "technicalSupportSubtitle": "El soporte técnico rápido y amigable siempre lo ayudará a resolver o solucionar problemas.",
+    "webhookTitle": "Webhooks",
+    "webhookSubtitle": "Cree su Webhook personalizado para recibir una notificación cuando se reciba su mensaje o sobre las actualizaciones de estado de los contactos.",
+    "worksEverywhereTitle": "Funciona en todas partes",
+    "worksEverywhereSubtitle": "Cualquier país, cualquier número de teléfono. Lo único que necesitas es un dispositivo móvil con WhatsApp instalado. Nos haremos cargo del resto.",
+    "title": "Modulos",
+    "subtitleTriiTeam": "Fomenta el trabajo en equipo.",
+    "descriptionTriiTeam": "Crea salas de discusión para ciertas temáticas. Mantiene los sectores comunicados.",
+    "subtitleTriiChat": "Unifica los canales de comunicación.",
+    "descriptionTriiChat": "​Asigna las conversaciones a distintos usuarios. El historial y los datos de contacto en un solo lugar.",
+    "subtitleTriiMarketing": "Envíos masivos de mensajería.",
+    "descriptionTriiMarketing": "​Comunica novedades, promociones y notificaciones. Genera nuevas ventas.",
+    "subtitleTriiTicket": "Ordena las tareas.",
+    "descriptionTriiTicket": "Dale seguimiento a pedidos, reclamos, consultas y entre otros. Notificaciones con WhatsApp.",
+    "subtitleTriiService": "Simplifica las tareas de reparación.",
+    "descriptionTriiService": "​Coordina los grupos de servicio. Envía notificaciones de cambio de estado.",
+    "titleTriiCollections": "Trii Cobranzas",
+    "subtitleTriiCollections": "Genera registros contables actualizados.",
+    "descriptionTriiCollections": "Afianza la relación con tus clientes. Facilita la cobranza.",
+    "titleTriiCalls": "Trii Llamadas",
+    "subtitleTriiCalls": "",
+    "descriptionTriiCalls": "Integra las comunicaciones de audio a través de nuestro IVR y/o softphone SIP.",
+    "titleTriiContacts": "Trii Contactos",
+    "subtitleTriiContacts": "Gestion de contactos",
+    "descriptionTriiContacts": "Gestione todos sus contactos de manera organizada."
+  },
+  "workSpaces": {
+    "profile": "Perfil de espacio de trabajo",
+    "myWorkspaces": "Mis espacios de trabajo",
+    "createNewSpace": "Crear nuevo espacio",
+    "workspaceDeletion": "Eliminar espacio de trabajo",
+    "byDeleting": "Al eliminar el espacio de trabajo, eliminarás toda la informacion asociada. No hay vuelta atras!.",
+    "deleteWorkspace": "Eliminar espacio de trabajo",
+    "subdomainName": "Nombre de subdominio",
+    "editSubdomain": "Editar subdominio",
+    "subdomain": "Subdominio",
+    "editDomain": "Editar dominio",
+    "contentIsConfig": "El contenido está configurado con el dominio ",
+    "customDomain": "Dominio personalizado",
+    "domain": "Dominio",
+    "dataCenter": "Centro de datos",
+    "eastus": "Estados Unidos este",
+    "brazilsouth": "Brasil sur",
+    "westeurope": "Europa occidental",
+    "openLink": "Abrir enlace en una nueva pestaña"
+  },
+  "plans": {
+    "plans": "Planes"
+  },
+  "subscription": {
+    "mySubscriptions": "Mis subscripciones",
+    "invoices": "Facturas",
+    "addresses": "Direcciones",
+    "enterprisePlan": "Plan Enterprise",
+    "freeTrialRemaining": "dias de prueba restantes",
+    "switchTrial": "Cambiar prueba",
+    "trialEnds": "La prueba finaliza el",
+    "invoicingData": "Datos de facturación",
+    "amountToBePaid": "Monto a pagar",
+    "outstandingBalance": "Saldo pendiente",
+    "upToDateBalance": "¡Estas al dia!",
+    "pending": "Pendiente",
+    "paid": "Pagado",
+    "period": "Periodo",
+    "expirationDate": "Vencimiento",
+    "paymentDate": "Fecha de pago",
+    "switchPlan": "Cambiar plan",
+    "switchPlanDescription1": "Su cuenta será cambiada del plan",
+    "switchPlanDescription2": "al plan",
+    "switchPlanDescription3": ".",
+    "switchTo": "Cambiar a ",
+    "upgrade": "Mejorar",
+    "currentPlan": "Plan actual",
+    "basic": "Basic ",
+    "pro": "Pro ",
+    "enterprise": "Enterprise "
+  },
+  "aboutUs": {
+    "name": "Sobre nosotros",
+    "titlePartOne": "Estamos en una misión para",
+    "helpYou": " ayudarte ",
+    "titlePartTwo": "a sacarle el máximo partido a tu empresa.",
+    "subtitle": "Trii es una plataforma omnicanal que te permitirá centralizar los distintos canales de comunicación, afianzar la relación con tus clientes y mejorar el rendimiento de tu empresa a través de sus distintos módulos."
+  },
+  "tickets": {
+    "subtitle": "Tickets generados y gestionados por mes."
+  },
+  "listasDifusion": {
+    "title": "Listas difusión",
+    "subtitle": "Campañas generadas por mes."
+  },
+  "llamadas": {
+    "title": "Llamadas",
+    "subtitle": "Llamadas gestionadas por mes."
+  },
+  "comunicaciones": {
+    "title": "Comunicaciones",
+    "subtitle": "Comuninicaciones generadas por mes. (Whatsapp, Facebook, SMS)."
+  },
+  "verify": {
+    "verifyAccount": "Verificar cuenta",
+    "verifyYourEmail": "Verifica tu email para continuar",
+    "didNotReceiveCode": "No recibiste el codigo?",
+    "resendCode": "Reenviar codigo.",
+    "checkYourInbox": "Tu cuenta aun no está verificada, revisa tu bandeja de entrada para obtener el codigo de verificacion e ingreselo a continuacion.",
+    "signUpSuccess": "Registro exitoso. Te enviamos un correo con el codigo de verificación para activar tu cuenta."
+  },
+  "success": {
+    "verifyAccount": "Cuenta verificada con exito"
+  },
+  "filter": {
+    "apply": "Aplicar"
+  },
+  "tableHeader": {
+    "dateTime": "FechaHora"
+  },
+  "tableContent": {
+    "noLogs": "Sin registros"
+  },
+  "functionsHomeView": {
+    "title": "Funciones",
+    "multiChannelTitle": "Multi-canal",
+    "multiChannelSubtitle": "Unificamos todos los canales de mensajería disponibles en tu empresa. Telefonía, SMS, Chat Web, Email, Facebook, WhatsApp e Instagram.",
+    "botsTitle": "Bots",
+    "botsSubtitle": "Nuestro Chatbot permite automatizar desde simples mensajes de bienvenida hasta complejos arboles de opciones. Aplica a los canales WhatsApp, SMS, Chat Web, E-mail y Facebook.",
+    "apiTitle": "API",
+    "apiSubtitle": "Permitimos a los clientes a través de sus sistemas de gestión enviar avisos automáticos por email, SMS, WhatsApp o llamada telefónica.",
+    "dashboardTitle": "Dashboard",
+    "dashboardSubtitle": "Visualice la información importante en tiempo real, llevando el control de su empresa y anticipando posibles acciones para mejorar la productividad.",
+    "reportsTitle": "Reportes",
+    "reportsSubtitle": "Conoce de forma detallada el desarrollo de comunicaciones de tu empresa.",
+    "ivrTitle": "IVR",
+    "ivrSubtitle": "Automatizamos las llamadas telefónicas de los clientes combinando la base de datos, PBX y el modulo de Trii."
+  },
+  "profile": {
+    "personalInformation": "Información personal",
+    "provider": "Proveedor",
+    "accountId": "Id de cuenta",
+    "apikeyCopied": "Api-key copiado al portapapeles",
+    "enterName": "Ingrese su nombre",
+    "myProfile": "Mi perfil",
+    "error": {
+      "invalidName": "Nombre inválido"
+    }
+  },
+  "deletePrincipalAccount": {
+    "dialog": {
+      "title": "Eliminar cuenta",
+      "subtitle": "Estás a punto de eliminar tu cuenta. Tienes 7 días para recuperarlo y evitar su eliminación definitiva."
+    },
+    "deletePending": "Su cuenta ha sido marcada para ser eliminada.",
+    "cancelDeletion": "Cancelar eliminación"
+  },
+  "resetPassword": {
+    "changePassword": "Cambiar Contraseña",
+    "passwordResetEmailSent": "Un codigo de verificación ha sido enviado a su correo electrónico.",
+    "form": {
+      "newPassword": "Nueva contraseña",
+      "confirmNewPassword": "Confirmar nueva contraseña",
+      "saveNewPassword": "Guardar nueva contraseña",
+      "savingNewPassword": "Guardando nueva contraseña",
+      "verCode": "Código de verificación"
+    },
+    "error": {
+      "verCodeMismatch": "El código de verificación no coincide",
+      "email": "Porfavor ingrese un correo electronico valido.",
+      "password": "Porfavor ingrese una contraseña valida.",
+      "passwordMatch": "Las contraseñas no coinciden.",
+      "code": "Porfavor ingrese un codigo de verificacion valido.",
+      "codeDoesNotExist": "El codigo de validacion no existe, asegurate de que lo estas escribiendo bien.",
+      "limitExceeded": "Has excedido el limite de intentos, porfavor intenta de nuevo en unos minutos."
+    }
+  },
+  "recoverAccount": {
+    "recoverAccount": "Recuperar cuenta",
+    "forgotYourPassword": "Olvidó su contraseña?"
+  },
+  "emailForm": {
+    "sendResetLink": "Enviar codigo",
+    "enterYourEmailBelow": "Ingrese su direccion de correo electronico debajo y lo ayudaremos a restablecer su contraseña.",
+    "backToLogin": "Volver al inicio de sesión"
+  },
+  "resetPasswordForm": {
+    "enterDataToResetPassword": "Ingrese el codigo de verificacion que recibió en su correo electronico seguido de su nueva contraseña.",
+    "newPassword": "Nueva contraseña",
+    "confirmNewPassword": "Confirme su nueva contraseña",
+    "resetYourPassword": "Restablecer tu contraseña",
+    "verificationCode": "Código de verificacion",
+    "passwordResetSuccess": "Contraseña restablecida con éxito",
+    "success": "Exito"
+  },
+  "error": {
+    "email": "Porfavor ingrese un correo electronico valido.",
+    "password": "Porfavor ingrese una contraseña valida.",
+    "passwordMatch": "Las contraseñas no coinciden.",
+    "code": "Porfavor ingrese un codigo de verificacion valido.",
+    "codeDoesNotExist": "El codigo de validacion no existe, asegurate de que lo estas escribiendo bien.",
+    "limitExceeded": "Has excedido el limite de intentos, porfavor intenta de nuevo en unos minutos.",
+    "changingPassword": "Error actualizando contraseña.",
+    "expiredCode": "Codigo de verificacion ha expirado.",
+    "incorrectCode": "Codigo incorrecto.",
+    "errorPasswordNotFound": "La contraseña es incorrecta. Vuelve a intentarlo o haz clic en \"Olvidaste la contraseña?\" para restablecerla.",
+    "errorEmailNotFound": "No pudimos encontrar tu Cuenta Trii",
+    "errorEmail": "Ingrese una direccion de correo electronico valida.",
+    "errorPassword": "Ingrese una contraseña valida.",
+    "errorEmailPassword": "Direccion de correo electronico o contraseña incorrectos.",
+    "emailError": "Por favor, introduzca una dirección de correo electrónico válida.",
+    "emailExists": "Esta dirección de correo electrónico ya está registrada.",
+    "passwordLenghtError": "La contraseña debe tener al menos 8 caracteres.",
+    "passwordLowerCaseError": "La contraseña debe contener letras minúsculas.",
+    "passwordUpperCaseError": "La contraseña debe contener letras mayúsculas.",
+    "passwordSymbolError": "La contraseña debe contener símbolos."
+  },
+  "login": {
+    "welcomeBack": "Bienvenido de nuevo",
+    "logInToManageAccount": "Inicie sesión para administrar su cuenta",
+    "forgotPassword": "Olvidaste tu contraseña?",
+    "dontHaveAccountYet": "Aún no tienes una cuenta?",
+    "signUpHere": "Regístrate aquí.",
+    "errorMail": "Email no válido",
+    "signIn": "Ingresar",
+    "accountTitle": "Acceso a una cuenta"
+  },
+  "signUp": {
+    "createAnAccount": "Crear cuenta",
+    "fillOutFormToGetStarted": "Complete el formulario para comenzar.",
+    "alreadyHaveAccount": "Ya tienes una cuenta?",
+    "byClicking": "Al hacer clic en el boton de Registro aceptas nuestros",
+    "terms": "términos y condiciones.",
+    "createAccountSuccess": "Cuenta verificada con éxito",
+    "success": "Exito",
+    "youMay": "Ahora puedes",
+    "login": "Iniciar sesión"
+  },
+  "interface": {
+    "loadMore": "Cargar más"
+  },
+  "user": {
+    "firstName": "Nombre",
+    "middleName": "Segundo nombre",
+    "role": "Rol",
+    "phone": "Teléfono",
+    "workPhone": "Teléfono de trabajo",
+    "homePhone": "Teléfono de casa",
+    "cellPhone": "Teléfono celular",
+    "lastName": "Apellido",
+    "address": "Dirección",
+    "address1": "Dirección 1",
+    "address2": "Dirección 2",
+    "city": "Ciudad",
+    "state": "Estado",
+    "country": "País",
+    "company": "Empresa",
+    "emailAddress": "Correo electrónico"
+  },
+  "users": {
+    "workInformation": "Información de trabajo"
+  },
+  "userList": {
+    "noUserFound": "No hay ningun usuario"
+  },
+  "add": {
+    "error": {
+      "invalidSpaceName": "Nombre de espacio de trabajo inválido",
+      "invalidSubdomain": "Subdominio inválido",
+      "nonAvailableSubdomain": "Subdominio no disponible"
+    }
+  },
+  "delete": {
+    "dialog": {
+      "title": "Eliminar espacio de trabajo",
+      "subtitle": "Estás a punto de eliminar el espacio de trabajo. Tienes 7 días para recuperarlo y evitar su eliminación definitiva."
+    },
+    "workspaceCancelDeletion": "Cancelar eliminación",
+    "deletionWarning": "El espacio ha sido marcado para su eliminación. Tiene hasta 7 dias desde la solicitud para cancelar la accion."
+  },
+  "edit": {
+    "stepper": {
+      "firstStep": {
+        "title": "Define tu Dominio",
+        "subtitle": "Ingresa el nombre exacto de subdominio que quieras que la gente vea cuando visite este espacio. Debe ser un subdominio (portal.yourdomain.com)"
+      },
+      "secondStep": {
+        "title": "Crear un registro CNAME DNS",
+        "subtitle": "Para completar la configuracion de tu dominio perzonalizado, agrega un registro CNAME a tu dominio visitando tu proveedor DNS ",
+        "copied": "CNAME Copiado al portapapeles",
+        "verify": "Verificar",
+        "finish": "Finalizar",
+        "back": "Atras",
+        "continue": "Continuar"
+      }
+    },
+    "subdomain": {
+      "caution": "Precaucion",
+      "warning1": "Se cerrará la sesión de todos los usuarios y se les pedirá que inicien sesión en la nueva URL de la organización.",
+      "warning2": "La antigua URL de la organización ya no será accesible y todos los usuarios deben usar la URL de la organización actualizada.",
+      "warning3": "Todos los enlaces de activación de usuario / enlaces de restablecimiento de contraseña con url de organización antigua ya no serán funcionales.",
+      "warning4": "No se puede deshacer este cambio."
+    },
+    "domain": {
+      "dialog": {
+        "title": "",
+        "subtitle1": "Se cerrará la sesión de todos los usuarios y se les pedirá que inicien sesión en la URL de la organización.",
+        "subtitle2": "Ya no se podrá acceder a la URL anterior y todos los usuarios deben usar la URL de la organización actualizada.",
+        "subtitle3": "Todos los enlaces de activación de usuario / enlaces de restablecimiento de contraseña con URL de la organización ya no funcionarán.",
+        "subtitle4": "No se puede deshacer este cambio."
+      }
+    }
+  }
+}

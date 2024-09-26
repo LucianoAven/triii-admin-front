@@ -1,0 +1,14 @@
+.img-fix {
+  width: 64px;
+  height: 64px;
+}
+
+div > a:hover {
+  color: inherit !important;
+  text-decoration: inherit !important;
+  cursor: pointer !important;
+}
+
+a[target]:not(.btn) {
+  text-decoration: none !important;
+}

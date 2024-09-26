@@ -1,0 +1,68 @@
+{
+  "name": "trii-account-front",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "https://account.trii.app",
+  "dependencies": {
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.8.7",
+    "@mui/styles": "^5.8.7",
+    "@reduxjs/toolkit": "^1.8.3",
+    "@trii/types": "^2.10.131",
+    "amazon-cognito-identity-js": "^5.2.10",
+    "axios": "^0.27.2",
+    "date-fns": "^2.29.2",
+    "eslint-config-react-app": "^7.0.1",
+    "formik": "^2.2.9",
+    "i18next": "^21.8.13",
+    "i18next-browser-languagedetector": "^6.1.4",
+    "i18next-http-backend": "^1.4.1",
+    "jquery": "^3.6.0",
+    "moment": "^2.29.4",
+    "popper.js": "^1.16.1",
+    "prop-types": "^15.8.1",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.4.0",
+    "react-date-range": "^1.4.0",
+    "react-dom": "^17.0.2",
+    "react-google-button": "^0.7.2",
+    "react-i18next": "^11.18.0",
+    "react-image-crop": "^10.0.4",
+    "react-redux": "^8.0.2",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "^5.0.1",
+    "react-toastify": "^7.0.4",
+    "redux": "^4.2.0",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "^2.4.1",
+    "typescript": "^4.7.4",
+    "web-vitals": "^2.1.4",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "start": "set PORT=3000 && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

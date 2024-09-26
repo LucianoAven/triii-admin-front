@@ -1,0 +1,38 @@
+.img-fix{
+    width:64px;
+    height:64px;
+}
+.editIconProfile:hover{
+    background-color: gray;
+    opacity: 0.5;
+    cursor: pointer;
+  }
+.marginLeftImgProfile{
+    margin-left: 25px !important;
+}  
+.profileEmailSpan{
+    font-size: 18px;    
+}
+.profileEmailProvider{
+    font-size: 12px;
+    color: lightslategrey    
+}
+.disabledLink{
+    color: lightgray !important;
+    cursor: not-allowed !important;
+}
+@media screen and (max-width: 1024px) {
+    .marginLeftImgProfile{
+        margin-left: 0px !important;
+    }   
+
+}
+@media screen and (max-width: 400px) {
+    .profileEmailSpan{
+        font-size: 14px;    
+        margin-top: 30px;
+    }
+    .profilePhoto{
+        align-self: center;
+    }
+}

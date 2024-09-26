@@ -1,0 +1,568 @@
+{
+  "global": {
+    "name": "Name",
+    "languages": "Languages",
+    "user": "User",
+    "users": "Users",
+    "profile": "Profile",
+    "english": "English",
+    "spanish": "Spanish",
+    "logout": "Logout",
+    "login": "Log In",
+    "signup": "Sign Up",
+    "enterEmail": "Enter your email",
+    "enterPassword": "Enter your password",
+    "userList": "User List",
+    "role": "Role",
+    "company": "Company",
+    "phone": "Phone",
+    "direction": "Direction",
+    "modules": "Modules",
+    "security": "Security",
+    "addImage": "Add image",
+    "accept": "Accept",
+    "address": "Address",
+    "email": "Email",
+    "saveChanges": "Save changes",
+    "action": "Action",
+    "edit": "Edit",
+    "delete": "Delete",
+    "applications": "Applications",
+    "download": "Download",
+    "domicile": "Domicile",
+    "password": "Password",
+    "components": "Components",
+    "docs": "Docs",
+    "home": "Home",
+    "pricing": "Pricing",
+    "contact": "Contact",
+    "privacyPolicy": "Privacy policy",
+    "verificationCode": "Verification code",
+    "functions": "Functions",
+    "recoverAccount": "Recover account",
+    "forgotYourPassword": "Forgot your password?",
+    "loading": "Loading",
+    "owner": "Owner",    
+    "accounts": "Accounts",
+    "payments": "Payments",
+    "save": "Save",
+    "updatePhoto": "Update photo",
+    "myAccounts": "My accounts",
+    "addAccount": "Add account",
+    "editAccount": "Edit account",
+    "cancel": "Cancel",
+    "newAccount": "New account",
+    "create": "Create",
+    "account": "Account",
+    "detail": "Description",
+    "optional": "Optional",
+    "userInfo": "User info",
+    "finalize": "Finalize",
+    "enterName": "Enter your name",
+    "or": "or",
+    "saving": "Saving",
+    "ending": "Ending",
+    "creating": "Creating",
+    "deleteAccount": "Delete account",
+    "actions": "Actions",
+    "editProfile": "Edit Profile",
+    "addUser": "Add User",
+    "searchByUserName": "Search by name",
+    "loadMore": "Load more",
+    "noResults": "No results found",
+    "type": "Type",
+    "myProfile": "My Profile"
+  },
+
+  "dashboard": {
+    "quantityUser": "User quantity",
+    "diskSpace": "Disk space"
+  },
+
+  "navBar": {
+    "business": "Business",
+    "dashboard": "Dashboard",
+    "login": "Log In",
+    "logout": "Log Out",
+    "workspaces": "Work Spaces",
+    "auditLogs": "Audit logs",
+    "subscriptions": "Subscriptions"
+  },
+
+  "business": {
+    "errorSelect": "Select a file type",
+    "addressCompany": "Company address",
+    "nameCompany": "Company name",
+    "emailCompany": "Company email",
+    "phoneCompany": "Company phone",
+    "dataCompany": "Company data"
+  },
+  "security": {
+    "setSecLvl": "Set password security level",
+    "opt1": "No more than 2 identical characters in a row",
+    "opt2": "Special characters (!@#$%^&*)",
+    "opt3": "Lower case (a-z), upper case (A-Z) and numbers (0-9)",
+    "opt4": "Must have  ---8---  characters in length",
+    "opt5": "Non-empty password required"
+  },
+  "billing": {
+    "billing": "Billing",
+    "amountPayable": "Amount payable",
+    "billingInformation": "Billing information",
+    "history": "History",
+    "pending": "Pending",
+    "paid": "Paid",
+    "period": "Period",
+    "expirationDate": "Expiration date",
+    "paymentDate": "Payment date",
+    "upToDate": "You are up to date",
+    "pendingPayment": "Pending payment",
+    "seeMore": "See more"
+  },
+  "pricing": {
+    "starter": "1 Line",
+    "annual": "Annual",
+    "monthly": "Monthly",
+    "subscribe": "Subscribe",
+    "title": "Our prices",
+    "description": "Price based on one (1) line/number.",
+    "accessAllFeatures": "Access to all features",
+    "accountLineNumber": "1 Account/Line/Number",
+    "messageOnlyText": "Text only messages",
+    "multimediaMessage": "Multimedia messages (audio, images, videos, files)",
+    "webhookNotification": "WebHook to notify incoming messages",
+    "5daysTrial": "5 days trial *",
+    "requiresCreditCard": "requires credit card",
+    "trialAdvice": "If you consider it necessary to try the service for a period longer than 5 days, you can request it from the contact form"
+  },
+  "footer": {
+    "home": "Home",
+    "allRightsReserved": "All rights reserved",
+    "description": "When you visit or interact with our sites, services or tools, we or our authorised service providers may use cookies for storing information to help provide you with a better, faster and safer experience and for marketing purposes."
+  },
+  "ApiDocs": {
+    "authentication": "Authentication",
+    "textMessage": "Text message",
+    "multimediaMessage": "Multimedia message",
+    "messageStatus": "Message status",
+    "settings": "Settings",
+    "description": "Description",
+    "faqTitle": "Frequent Questions",
+    "faqSubtitle": "Search our FAQ for answers to anything you might ask."
+  },
+  "FAQ": {
+    "title1": "Can I make mass mailings via the Chat API?",
+    "subtitle1": "We encourage our customers not to send unwanted messages and not to make bulk marketing messages. Otherwise your account can be blocked by the WhatsApp anti-spam system. Do not send more than 6000 messages per day from one number. Or no more than 5-10 messages per minute. Exceeding this threshold may attract the attention of WhatsApp algorithms. To send more messages, connect another number",
+    "title2": "I need to send more than 6,000 messages a day. What to do?",
+    "subtitle2": "Use multiple accounts. Multiple numbers of WhatsApp allow you to send more messages per day. If you use more than 5 accounts, we provide a discount. Accounts are added on request to technical support.",
+    "title3": "Can I send images, audio and video files?",
+    "subtitle3": "Yes, you can. Important! Use the / sendFile method instead of the message (sendMessage) method in the link to the token. Send only https links (do not send http). The maximum file size is 60 mb. It is better to send large files with a link, not base64.",
+    "title4": "How do I send a message to the WhatsApp group?",
+    "subtitle4_1": "Create a group using the POST / group method.",
+    "subtitle4_2": "Get chatid through the GET / messages method.",
+    "subtitle4_3": "Send a message to the group via POST / sendMessage.",
+    "title5": "Will Chat API be updated when I update WhatsApp?",
+    "subtitle5": "Yes, it will be updated. Chat API has been working and supported since December 2015. Usually there are 3 - 4 updates per year, affecting the work of the Chat API. Within 1 working day, we adapt the API to the changes.",
+    "title6": "Is the status 'Delivered' and 'Read' displayed when sent via the Chat API?",
+    "subtitle6": "Yes. See the section 'ack' in the documentation",
+    "title7": "How to connect WhatsApp to Chat API?",
+    "subtitle7_1": "How to connect WhatsApp to Chat-Api",
+    "subtitle7_2": "Connect the phone number to the service.",
+    "subtitle7_3_1": "Create your Chat-Api account. It's free!",
+    "subtitle7_3_2": "After that you will be redirected to the admin panel where your personal instance (account) will be created. You will receive a QR code on the main page of your personal account. Pay attention to secure authorization for new phones. Now, following the instructions, open WhatsApp on your mobile phone, go to «Settings» - > WhatsApp Web - > Scan QR code",
+    "subtitle7_4_1": "What do you need to get started?",
+    "subtitle7_4_2": "A mobile phone with WhatsApp running is required for normal operation. Most of the time, our customers simply plug an unused WhatsApp device into the power grid and do not use it for any other purpose It is important to observe the conditions for correct functioning of the bots: - The WhatsApp app is running on your device (not in power saving mode), connected to the internet and has a good battery life. - Do not use Whatsapp Web! Please do not sign in to the WhatsApp web version after you have connected your number to your personal account, this will result in a connection reset and you will have to go through the connection procedure again. In case of violation of any of these conditions, the messages will stop reaching your personal cabinet and will not be sent.",
+    "title8": "What do you need to get started?",
+    "subtitle8_1": "What do you need to get started?",
+    "subtitle8_2": "A mobile phone with WhatsApp running is required for normal operation.",
+    "subtitle8_3": "Most of the time, our customers simply plug an unused WhatsApp device into the power grid and do not use it for any other purpose",
+    "subtitle8_4": "It is important to observe the conditions for correct functioning of the bots:",
+    "subtitle8_5": "- The WhatsApp app is running on your device (not in power saving mode), connected to the internet and has a good battery life.",
+    "subtitle8_6": "- Do not use Whatsapp Web!",
+    "subtitle8_7": "Please do not sign in to the WhatsApp web version after you have connected your number to your personal account, this will result in a connection reset and you will have to go through the connection procedure again.",
+    "subtitle8_8": "In case of violation of any of these conditions, the messages will stop reaching your personal cabinet and will not be sent.",
+    "title9": "Our advice. Safety and Blocking",
+    "subtitle9_1": "Security and blockages",
+    "subtitle9_2": "The main reason WhatsApp can block a number is because of user complaints about spam. Just a few clicks on the 'This is spam' button after you send your messages. You will not be able to unlock your phone number. You will not be able to get your customers' answers. You will lose your subscriber base and you will have to activate a new phone number (we do not charge you any additional fees).",
+    "subtitle9_3": "If you are banned, please contact our technical support team.",
+    "subtitle9_4": "How to avoid blocking?",
+    "subtitle9_5": "Our marketing recommendations:",
+    "subtitle9_6": "- Set up the advertising in such a way that the user is the first to write to you (the 'Mark as Spam' button does not appear).",
+    "subtitle9_7": "- Send messages only to your loyal database of numbers that have given you their consent.",
+    "subtitle9_8": "- Don't send the same messages, change them: personalize the messages (“Hi, %name%”).",
+    "subtitle9_9": "- Take advantage of the opportunity to subscribe and unsubscribe from your mailing list in each message. To do this, add reply buttons (e.g. 'Write 0 to unsubscribe')",
+    "subtitle9_10": "- Minimize the presence of a link in messages at first use of the bot",
+    "subtitle9_11": "- Offer users to save your contact",
+    "subtitle9_12": "Our technical recommendations:",
+    "subtitle9_13": "- New phone numbers have a greater risk of being blocked. Before connecting a completely new number, we advise you to use Whatsapp personally for some time (chat with other numbers so that you have a variety of incoming and outgoing messages from different numbers)",
+    "subtitle9_14": "- Use secure authentication in your personal account",
+    "subtitle9_15": "- When you start using the bot, send no more than 5-10 messages per minute, i.e. send messages in batches, not all at once. The longer your bot works, the more messages you can send.",
+    "subtitle9_16": "- Do not use numbers and devices(!) that have already been blocked by WhatsApp."
+  },
+  "form": {
+    "enterValidName": "Please enter a valid name",
+    "specifyFirstName": "Please specify your first name",
+    "specifyLastName": "Please specify your last name",
+    "validEmailAdress": "Please enter a valid email address",
+    "emailIsRequired": "Email is required.",
+    "validPhoneNumber": "Please enter a valid phone number.",
+    "maxMessageContent": "The message cannot contain more than 500 characters",
+    "askName": "Please tell us your name",
+    "askEmail": "Please enter your email address",
+    "askPhoneNumber": "Please enter your phone number (optional)",
+    "message": "Message",
+    "send": "Send",
+    "phoneNumber": "Phone number",
+    "lastName": "Last name",
+    "firstName": "First name"
+  },
+  "contact": {
+    "contactUs": "Contact us",
+    "requestInfo": "Request more information."
+  },
+  "home": {
+    "title": "Unified communications",
+    "subtitle": "The best solutions for your company",
+    "descriptionSubtitle": "For Sending & Receiving Messages",
+    "descriptionText": "Using our API, you can send and receive messages through WhatsApp in minutes. You can create your own bot by sending automatic responses when people type in their numbers. Or just send notifications to all your customers.",
+    "descriptionAdviceTitle": "RESPONSIBLE USE",
+    "descriptionAdviceSubtitle": "We urge our customers not to send unsolicited messages. However, you are not technically limited and can do so. But remember, your account may be suspended by WhatsApp if users click the \"it's spam\" button multiple times."
+  },
+  "benefits": {
+    "wspRestApiTitle": "WhatsApp REST API",
+    "wspRestApiSubtitle": "Our REST API was designed to be extremely easy to use and accessible to everyone, no matter the programing language or frameworks you use. Check out the API documentation to learn more.",
+    "textLocationMultimediaTitle": "Text, location & multimedia messages",
+    "textLocationMultimediaSubtitle": "We support text, location and media messages (images, audio, video or documents).",
+    "groupMessagesTitle": "Group messages",
+    "groupMessagesSubtitle": "You can send text or media messages to multiple chat groups for marketing announcements or offers. You can also create groups.",
+    "technicalSupportTitle": "Technical support",
+    "technicalSupportSubtitle": "Fast and friendly technical support will always help you solve or fix problems.",
+    "webhookTitle": "Webhooks",
+    "webhookSubtitle": "Create your custom Webhook to get notified when your message have been received or on contact status updates.",
+    "worksEverywhereTitle": "Works everywhere",
+    "worksEverywhereSubtitle": "Any country, any phone number. The only thing you need is a mobile device with WhatsApp installed. We will take care of the rest.",
+    "title": "Modules",
+
+    "subtitleTriiTeam": "Encourage teamwork.",
+    "descriptionTriiTeam": "Create discussion rooms for certain topics. It maintains the communicated sectors.",
+
+    "subtitleTriiChat": "Unify communication channels.",
+    "descriptionTriiChat": "Assign conversations to different users. History and contact details in one place.",
+
+    "subtitleTriiMarketing": "Mass mailings.",
+    "descriptionTriiMarketing": "Communicate news, promotions and notifications. Generate new sales.",
+
+    "subtitleTriiTicket": "Order the tasks.",
+    "descriptionTriiTicket": "Follow up on orders, claims, queries and among others. Notifications with WhatsApp.",
+
+    "subtitleTriiService": "Simplifies repair tasks.",
+    "descriptionTriiService": "Coordinate service groups. Send status change notifications.",
+
+    "titleTriiCollections": "Trii Collections",
+    "subtitleTriiCollections": "Generate updated accounting records.",
+    "descriptionTriiCollections": "Strengthen the relationship with your customers. Facilitates collection.",
+
+    "titleTriiCalls": "Trii Calls",
+    "subtitleTriiCalls": "",
+    "descriptionTriiCalls": "Integrate audio communications through our IVR and/or SIP softphone.",
+
+    "titleTriiContacts": "Trii Contacts",
+    "subtitleTriiContacts": "Contact management",
+    "descriptionTriiContacts": "Manage all your contacts in an organized way."
+  },
+
+  "plans": {
+    "plans": "Plans"
+  },
+  "user": {
+    "firstName": "First Name",
+    "middleName": "Middle Name",
+    "lastName": "Last Name",
+    "role": "Role",
+    "phone": "Phone",
+    "workPhone": "Work Phone",
+    "cellPhone": "Mobile Phone",
+    "homePhone": "Home Phone",
+    "address": "Address",
+    "address1": "Address 1",
+    "address2": "Address 2",
+    "city": "City",
+    "state": "State",
+    "country": "Country",
+    "company": "Company",
+    "emailAddress": "Email Address"
+  },
+
+  "users": {
+    "workInformation": "Work Information"
+  },
+
+  "userList": {
+    "noUserFound": "there is no user"
+  },
+  "workSpaces": {
+    "profile": "Workspace profile",
+    "myWorkspaces": "My workspaces",
+    "createNewSpace": "Create new space",
+    "workspaceDeletion": "Workspace deletion",
+    "byDeleting": "By deleting this workspace, you will permanently delete all associated data. There's no turning back!",
+    "deleteWorkspace": "Delete workspace",
+    "subdomainName": "Subdomain name",
+    "editSubdomain": "Edit subdomain",
+    "subdomain": "Subdomain",
+    "editDomain": "Edit domain",
+    "contentIsConfig": "Content is configured with domain ",
+    "customDomain": "Custom domain",
+    "domain": "Domain",
+    "dataCenter": "Data center",
+    "eastus": "East US",
+    "brazilsouth": "Brazil South",
+    "westeurope": "West Europe",
+    "openLink": "Open link in new tab"
+  },
+  "add": {
+    "error": {
+      "invalidSpaceName": "Invalid workspace name",
+      "invalidSubdomain": "Invalid subdomain",
+      "nonAvailableSubdomain": "Subdomain is not available"
+    }
+  },
+  "delete": {
+    "dialog": {
+      "title": "Delete workspace",
+      "subtitle": "You are about to delete the workspace. You have 7 days to recover it and prevent its permanent deletion."
+    },
+    "workspaceCancelDeletion": "Cancel deletion",
+    "deletionWarning": "The space has been marked for deletion. You have up to 7 days from the request to cancel the action."
+  },
+  "edit": {
+    "stepper": {
+      "firstStep": {
+        "title": "Define your Domain",
+        "subtitle": "Enter the exact domain name you want people to see when they visit this space. It shoud be a subdomain (portal.yourdomain.com)"
+      },
+      "secondStep": {
+        "title": "Create a CNAME DNS Record",
+        "subtitle": "To complete the setup of your custom domain, add a CNAME record to your domain by visiting your DNS provider or registrar.",
+        "copied": "CNAME copied to clipboard",
+        "verify": "Verify",
+        "finish": "Finish",
+        "back": "Back",
+        "continue": "Continue"
+      }
+    },
+    "subdomain": {
+      "caution": "Caution",
+      "warning1": "All the users will be logged out and will be prompted to login to the new Organization URL.",
+      "warning2": "The old Organization URL will not be accessible any longer and all the users need to use the updated Organization URL.",
+      "warning3": "All the user activation links / reset password links with old Organization URL will not be functional any longer.",
+      "warning4": "You cannot undo this change."
+    },
+    "domain": {
+      "dialog": {
+        "subtitle1": "All the users will be logged out and will be prompted to login to the Organization URL.",
+        "subtitle2": "The old URL will not be accessible any longer and all the users need to use the updated Organization URL.",
+        "subtitle3": "All the user activation links / reset password links with Organization URL will not be functional any longer.",
+        "subtitle4": "You cannot undo this change."
+      }
+    }
+  },
+  "subscription": {
+    "mySubscriptions": "My Subscriptions",
+    "invoices": "Invoices",
+    "addresses": "Addresses",
+    "enterprisePlan": "Enterprise Plan",
+    "freeTrialRemaining": "days free trial remaining",
+    "switchTrial": "Switch trial",
+    "trialEnds": "Trial ends on",
+    "invoicingData": "Invoicing Data",
+    "amountToBePaid": "Amount to be paid",
+    "outstandingBalance": "Outstanding Balance",
+    "upToDateBalance": "¡You are up to date!",
+    "pending": "Pending",
+    "paid": "Paid",
+    "period": "Period",
+    "expirationDate": "Expiration Date",
+    "paymentDate": "Payment Date",
+    "switchPlan": "Switch plan",
+    "switchPlanDescription1": "Your account will be switched from",
+    "switchPlanDescription2": "to the",
+    "switchPlanDescription3": "plan.",
+    "privacyPolicy": "Privacy policy",
+    "switchTo": "Switch to ",
+    "upgrade": "Upgrade",
+    "currentPlan": "Plan actual",
+    "basic": "Básico",
+    "pro": "Pro",
+    "enterprise": "Empresa"
+  },
+  "interface": {
+    "loadMore": "Load more"
+  },
+  "signUp": {
+    "createAnAccount": "Create an account",
+    "fillOutFormToGetStarted": "Fill out the form to get started.",
+    "alreadyHaveAccount": "Already have an account?",
+    "byClicking": "By clicking the Sign up button you agree with our",
+    "terms": "company terms and conditions.",
+    "createAccountSuccess": "Account verified successfully",
+    "success": "Success",
+    "youMay": "You may now",
+    "login": "Login"
+  },
+  "error": {
+    "emailError": "Please enter a valid email address.",
+    "emailExists": "This email is already registered.",
+    "passwordLenghtError": "Password must be at least 8 characters long.",
+    "passwordLowerCaseError": "Password must contain lowecase letters.",
+    "passwordUpperCaseError": "Password must contain uppercase letters.",
+    "passwordSymbolError": "Password must contain symbols.",
+    "email": "Please enter a valid email address.",
+    "password": "Please enter a valid password.",
+    "passwordMatch": "Passwords do not match.",
+    "code": "Please enter a valid code.",
+    "codeDoesNotExist": "The validation code does not exist, make sure you are typing it well.",
+    "limitExceeded": "You have exceeded the limit of attempts, please try after some time.",
+    "changingPassword": "Error changing password.",
+    "errorPasswordNotFound": "Wrong password. Try again or click \"Forgot your password?\" to reset it.",
+    "errorEmailNotFound": "Couldn't find your Trii Account",
+    "errorEmail": "Enter a valid email address.",
+    "errorPassword": "Enter a valid password.",
+    "errorEmailPassword": "Incorrect email or password.",
+    "expiredCode": "Expired code, please request a new code.",
+    "incorrectCode": "Incorrect code."
+  },
+  "verify": {
+    "signUpSuccess": "You have successfully signed up. We've sent you an email with the verification code needed to activate your account.",
+    "checkYourInbox": "Your account is not yet verified, check your inbox for the verification code and enter it below.",
+    "verifyAccount": "Verify account",
+    "didNotReceiveCode": "Did not receive the code?",
+    "resendCode": "Resend code",
+    "verifyYourEmail": "Verify your email to continue"
+
+  },
+  "login": {
+    "welcomeBack": "Welcome back",
+    "logInToManageAccount": "Login to manage your account",
+    "forgotPassword": "Forgot your password?",
+    "dontHaveAccountYet": "Dont have an account yet?",
+    "signUpHere": "Sign up here.",
+    "errorMail": "Invalid email",
+    "signIn": "Sign in",
+    "accountTitle": "Login account"
+  },
+  "recoverAccount": {
+    "recoverAccount": "Recover account",
+    "forgotYourPassword": "Forgot your password?"
+  },
+  "emailForm": {
+    "backToLogin": "Back to login",
+    "sendResetLink": "Send Code",
+    "enterYourEmailBelow": "Enter your email address below and we'll get you back on track."
+  },
+  "resetPasswordForm": {
+    "enterDataToResetPassword": "Enter the verification code you received in your email followed by your new password.",
+    "newPassword": "New password",
+    "confirmNewPassword": "Confirm new password",
+    "resetYourPassword": "Reset your password",
+    "passwordResetSuccess": "Password reset successfully",
+    "success": "Success"
+  },
+  "profile": {
+    "personalInformation": "Personal Information",
+    "provider": "Provider",
+    "accountId": "Account ID",
+    "apikeyCopied": "Api-key copied to clipboard",
+    "enterName": "Enter your name",
+    "myProfile": "My Profile",
+    "error": {
+      "invalidName": "Invalid name"
+    }
+  },
+  "deletePrincipalAccount": {
+    "dialog": {
+      "title": "Delete Account",
+      "subtitle": "You are about to delete your account. You have 7 days to recover it and prevent its permanent deletion."
+    },
+    "deletePending": "Your account has been flagged for deletion.",
+    "cancelDeletion": "Cancel Deletion"
+  },
+  "resetPassword": {
+    "changePassword": "Change Password",
+    "passwordResetEmailSent": "A verification code has been sent to your email address.",
+    "form": {
+      "newPassword": "New password",
+      "confirmNewPassword": "Confirm new password",
+      "verCode": "Verification code",
+      "saveNewPassword": "Save new password",
+      "savingNewPassword": "Saving new password"
+    },
+    "error": {
+      "verCodeMismatch": "Verification code mismatch",
+      "email": "Please enter a valid email address.",
+      "password": "Please enter a valid password.",
+      "passwordMatch": "Passwords do not match.",
+      "code": "Please enter a valid code.",
+      "codeDoesNotExist": "The validation code does not exist, make sure you are typing it well.",
+      "limitExceeded": "You have exceeded the limit of attempts, please try after some time."
+    }
+  },
+  "functionsHomeView": {
+    "title": "Functions",
+    
+    "multiChannelTitle": "Multi-channel",
+    "multiChannelSubtitle": "We unify all the messaging channels available in your company. Telephony, SMS, Web Chat, Email, Facebook, WhatsApp and Instagram.",
+    
+    "botsTitle": "Bots",
+    "botsSubtitle": "Our Chatbot allows you to automate from simple welcome messages to complex option trees. Applies to WhatsApp, SMS, Web Chat, E-mail and Facebook channels.",
+    
+    "apiTitle": "API",
+    "apiSubtitle": "We allow customers through their management systems to send automatic notices by email, SMS, WhatsApp or phone call.",
+   
+    "dashboardTitle": "Dashboard",
+    "dashboardSubtitle": "View important information in real time, taking control of your business and anticipating possible actions to improve productivity.",
+    
+    "reportsTitle": "Reports",
+    "reportsSubtitle": "Know in detail the development of your company's communications.",
+    
+    "ivrTitle": "IVR",
+    "ivrSubtitle": "We automate customer phone calls by combining the database, PBX and the Trii module."
+  },
+  "filter":{
+    "apply": "Apply"
+},
+"tableHeader": {
+    "dateTime": "DateTime"
+},
+"tableContent": {
+    "noLogs": "No logs"
+},
+"success": {
+  "verifyAccount": "Your account has been verified successfully"
+},
+"aboutUs": {
+  "name": "About us",
+  "titlePartOne": "We're on a mission to",
+  "helpYou": " help you ",
+  "titlePartTwo": "get the most out of your business.",
+  "subtitle": "Trii is an omnichannel platform that will allow you to centralize the different communication channels, strengthen the relationship with your customers and improve the performance of your company through its different modules."
+},
+"tickets": {
+  "subtitle": "Tickets generated and managed per month."
+},
+"listasDifusion": {
+  "title": "Broadcast lists",
+  "subtitle": "Campaigns generated per month."
+},
+"llamadas": {
+  "title": "Calls",
+  "subtitle": "Calls handled per month."
+},
+"comunicaciones": {
+  "title": "Communications",
+  "subtitle": "Communications generated per month. (Whatsapp, Facebook, SMS)."
+}
+
+
+
+}

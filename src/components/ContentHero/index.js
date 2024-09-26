@@ -1,0 +1,1 @@
+export { default as HeroStyle1 } from './HeroStyle1';
